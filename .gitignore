@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#datasets
+datasets\
+lucene-index-cord19-abstract-2020-07-16\
