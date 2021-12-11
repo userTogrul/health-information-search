@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0;
+  overflow: auto;
+  padding: 30px;
+}
+
+.logo {
+  font-size: 20px; 
+  font-weight: 900; 
+  line-height: 64px; 
+  text-transform: uppercase;  
+}
+
+.logo a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.logo a:hover {
+  color: black;
+}
+
+.logo a:visited {
+  color: black;
+}
+
+.welcome{
+  width: 100%;
+  padding: 100px 2% 200px;
+}
+
+.welcome h1{
+  font-size: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.abstract {
+
+}
+
+.abstract font {
+  color: steelblue; 
+  background: #fff4a3; 
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.result {
+  background: #f4f4f4;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.result.reminder {
+  border-left: 5px solid green;
+}
+
+.result .abssent {
+  padding: 2px;
+  margin: 10px;
+}
+
+.result h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.result a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.search-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  padding-right: 20%;
+}
+
+.form-control {
+  flex-grow: 3;
+  margin: 10px;
+}
+
+.search-form.btn{
+  margin: 10px;
+  flex-grow: 1;
+}
+
+
+
+.form-control label {
+  display: block;
+}
+
+.form-control input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+.form-control-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-control-check label {
+  flex: 1;
+}
+
+.form-control-check input {
+  flex: 2;
+  height: 20px;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.spinner {
+    animation: spin infinite 2s linear;
+
+    /*You can increase or decrease the timer (5s) to 
+     increase or decrease the speed of the spinner*/
+  }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
